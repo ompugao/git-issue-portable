@@ -13,7 +13,9 @@
     "atom-shell": "0.33.2"
   },
   "dependencies": {
-    "nodegit": "https://github.com/nodegit/nodegit/tarball/ece6f2413073f4033316a7c36006a586b7bd94ce"
+    "nodegit": "https://github.com/nodegit/nodegit/tarball/ece6f2413073f4033316a7c36006a586b7bd94ce",
+    "bootstrap": "^3.3.5",
+    "jquery": "^2.1.4 "
   },
   "devDependencies": {
     "electron-packager": "^5.1.0",
