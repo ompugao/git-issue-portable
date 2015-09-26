@@ -1,0 +1,23 @@
+{
+  "name": "git-issue-portable",
+  "version": "0.0.0",
+  "description": "git issue portable",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shohei Fujii",
+  "license": "MIT",
+
+  "engines": {
+    "atom-shell": "0.33.2"
+  },
+  "dependencies": {
+    "nodegit": "https://github.com/nodegit/nodegit/tarball/ece6f2413073f4033316a7c36006a586b7bd94ce"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.33.2",
+    "electron-rebuild": "^1.0.0"
+  }
+}
