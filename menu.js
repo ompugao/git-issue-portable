@@ -14,6 +14,23 @@ module.exports = {
             ]
         },
         {
+            label: 'Repository',
+            submenu: [
+            {
+                label: 'Choose Git Repository',
+                accelerator: 'Ctrl+o',
+                click: function() {
+                    return require('dialog').showOpenDialog(mainWindow, { 'properties': ['openDirectory'] },
+                        function(dir) {
+                            if(dir && dir[0]) {
+                                console.log(dir[0])
+                            }
+                        });
+                }
+            }
+            ]
+        },
+        {
             label: 'View',
             submenu: [
             {

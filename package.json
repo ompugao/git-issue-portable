@@ -15,7 +15,10 @@
   "dependencies": {
     "nodegit": "https://github.com/nodegit/nodegit/tarball/ece6f2413073f4033316a7c36006a586b7bd94ce",
     "bootstrap": "^3.3.5",
-    "jquery": "^2.1.4 "
+    "jquery": "^2.1.4 ",
+    "js-yaml": "^3.4.2",
+    "promisify-node": "^0.2.1",
+    "log4js": "^0.6.27"
   },
   "devDependencies": {
     "electron-packager": "^5.1.0",
